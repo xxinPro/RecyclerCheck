@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    tools:ignore="UseCompoundDrawables">
+<!--    是否选中-->
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/itemSelect"
+        android:src="@drawable/select"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        tools:ignore="ContentDescription" />
+<!--    列表项的标题-->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/itemTitle"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
